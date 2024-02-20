@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+   
+    Hierarquia em CSS.
+    id > class > genérico
+*/
+
+/* Estilizando um elemento genérico */
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilizando um elemento genérico */
+h1 {
+    color: #1e402f;
+}
+
+/* Estilizando um ID */
+#principal {
+    color: #FFFFFF;
+    background-color: #3c805e;
+    text-align: center;
+}
+
+/* Estilizando um elemento genérico */
+h2 {
+    color: #3c805e;
+}
+
+/* Estilizando uma classe */
+.basico {
+    color: #3c805e;
+    font-weight: bold;
+}
+
+/* Estilizando uma classe */
+.intermediario {
+    color: #80793c;
+}
+
+/* Estilizando uma classe */
+.avancado {
+    color: #803c3c;
+}
+
+/* Estilizando uma classe */
+.destaque {
+    background-color: #c5c56070;
+}
